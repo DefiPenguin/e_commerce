@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ecommerce</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="indexcontato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <h1>Seja bem-vindo a Nossa Loja</h1>
+                <p>encontre aqui os seus produtosde sublimação</p>
+                <div class="countainer-slider">
+                    <button class="prev"><img src="img/arrow.png" alt="prev-button"></button>
+                    <div class="countainer-images">
+                        <img src="img/slider 1.jpg" alt="img1" class="slider-img on">
+                        <img src="img/slider 2.jpg" alt="img2" class="slider-img">
+                        <img src="img/slider 3.jpg" alt="img3" class="slider-img">
+                        <img src="img/slider 4 .jpg" alt="img4" class="slider-img">
+                    </div>
+                    <button class="next"><img src="img/arrow.png" alt="next-button"></button>
+                </div>
+                <div class="search-div">
+                    <input onkeyup="filtrar()" id="searchBar" type="text" placeholder="Pesquisar">
+                    <ul id="listaProducts">
+                      
+                    </ul>
+                </div>
+            </section>
+
+            <section class="slider-sec">
+                <h2><b>Produtos</b> mais Acessados</h2>
+                <div class="slider">
+                  
+                </div>
+            </section>
+
+            <section class="products">
+                <h2><b>Produtos</b> em Destaque</h2>
+                <div class="product-grid">
+                
+                </div> 
+            </section>
+
+            <section class="cart">
+                <h2><b>Carrinho</b> de compras</h2>
+                <table>
+                    <thread>
+                        <tr> 
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Preço</th>
+                        <th>Subtotal</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                    
+                    </tbody>
+                </table>
+                <p>Total: <span id="total">R$0.00</span></p>
+                <button id="checkout">Pagar</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 André Ecommerce V3</p>
+            <script src="script.js"></script>
+        </footer>
+        <script src="scriptsearch.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js" integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js" integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript" src="scriptslider.js"></script>
+    </body>
+</html>

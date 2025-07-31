@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+        <title>Contatos | Meu Ecommerce</title>
+        <link rel="stylesheet" href="stylescontact.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="contact-section">
+                <h1>Contato</h1>
+                <p>Fale conosco!</p>
+                <form id="contact-form">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+
+                    <label for="message">Mensagem:</label>
+                    <textarea name="message" id="message" placeholder="Digite sua Mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+
+                <div class="contact-info">
+                    <h2>Informações de Contato</h2>
+                    <p>Endereço: Rua das lojas, 123 - São Paulo, SP</p>
+                    <p>Telefone: 1234-5678</p>
+                    <p>E-mail: contato@ecommerce.com.br</p>
+                    <P>Horario de Atendimento: Segunda a Sexta, 9h as 18h</P>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 André Ecommerce V3</p>
+        </footer>
+        <script src="scriptcontact.js"></script>
+    </body>
+</html>
